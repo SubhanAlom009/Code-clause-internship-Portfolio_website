@@ -30,20 +30,20 @@ function Footer() {
         <div className='flex flex-col justify-between mt-4 mb-10 sm:flex-row'>
           <div>
             <h1 className='text-lg font-bold'>Email</h1>
-            <Link to={'mailto:subhanalombasic123@gmail.com'} title='click to copy' ><p onClick={handleCopy('subhanalombasic123@gmail.com')} className='py-2 transition-all duration-200 rounded-md hover:text-[#2A9192]'>subhanalombasic123@gmail.com</p></Link>
+            <Link to={''} title='click to copy' ><p onClick={handleCopy('')} className='py-2 transition-all duration-200 rounded-md hover:text-[#2A9192]'>Your Email</p></Link>
             <p className={`fixed bottom-52 ${isCopied ? 'block transition-all duration-200' : 'hidden'}  left-[45%] px-2 py-4 font-mono text-center text-slate-500 bg-[#80D8DA] bg-opacity-50 rounded-lg`}>copied</p>
           </div>
           <div>
             <h1 className='text-lg font-bold'>Github</h1>
-            <Link to={'https://github.com/SubhanAlom009'} title='click to visit' target="_blank"><p className='py-2 transition-all duration-200 rounded-md hover:text-[#2A9192]'>https://github.com/SubhanAlom009</p></Link>
+            <Link to={''} title='click to visit' target="_blank"><p className='py-2 transition-all duration-200 rounded-md hover:text-[#2A9192]'>Your Github Link</p></Link>
           </div>
           <div>
             <h1 className='text-lg font-bold'>LinkedIn</h1>
-            <Link to={'https://www.linkedin.com/in/subhanalom/'}  target="_blank" title='click to visit'><p className='py-2 transition-all duration-200 rounded-md hover:text-[#2A9192]'>https://www.linkedin.com/in/subhanalom/</p></Link>
+            <Link to={''}  target="_blank" title='click to visit'><p className='py-2 transition-all duration-200 rounded-md hover:text-[#2A9192]'>Your LinkedIn Link</p></Link>
           </div>
           <div>
             <h1 className='text-lg font-bold'>Phone No.</h1>
-            <Link to={'tel:+91 9395159907'} title='click to call'><p className='py-2 transition-all duration-200 rounded-md hover:text-[#2A9192]'>+91 9395159907</p></Link>
+            <Link to={'tel:'} title='click to call'><p className='py-2 transition-all duration-200 rounded-md hover:text-[#2A9192]'>Your Phone No.</p></Link>
           </div>
         </div>
         <div className='flex flex-col items-center text-sm font-light'>

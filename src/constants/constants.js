@@ -1,22 +1,6 @@
-import p1img1 from '../assets/projects/project 1/img1.png'
-import p1img2 from '../assets/projects/project 1/img2.png'
-import p1img3 from '../assets/projects/project 1/img3.png'
-
-import p2img1 from '../assets/projects/project 2/img1.png'
-import p2img2 from '../assets/projects/project 2/img2.png'
-import p2img3 from '../assets/projects/project 2/img3.png'
-
-import p3img1 from '../assets/projects/project 3/img1.png'
-import p3img2 from '../assets/projects/project 3/img2.png'
-import p3img3 from '../assets/projects/project 3/img3.png'
-
-import p4img1 from '../assets/projects/project 4/img1.png'
-import p4img2 from '../assets/projects/project 4/img2.png'
-import p4img3 from '../assets/projects/project 4/img3.png'
-
-import p5img1 from '../assets/projects/project 5/img1.png'
-import p5img2 from '../assets/projects/project 5/img2.png'
-import p5img3 from '../assets/projects/project 5/img3.png'
+import img1 from '../assets/projects/img1.jpg'
+import img2 from '../assets/projects/img2.jpg'
+import img3 from '../assets/projects/img3.jpg'
 
 import { FaReact } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
@@ -37,52 +21,52 @@ export const hoverMsg = [
 
 export const projects = [
     {
-      title: 'Tech Trove',
+      title: 'project 1',
       description: 'Welcome to TechTrove, your one-stop shop for the latest and greatest in tech products',
-      image: [p1img1, p1img2, p1img3],
-      liveLink: 'https://tech-trove-2.vercel.app',
-      codeLink: 'https://github.com/SubhanAlom009/e-commerce-website_internship_project',
+      image: [img1, img2, img3],
+      liveLink: '/',
+      codeLink: '/',
       techStack: [      
         { icon: FaReact, color: '#61DAFB' },
         { icon: SiTailwindcss, color: '#38B2AC' },
         { icon: IoLogoNodejs, color: '#3C873A' }]
     },
     {
-      title: 'Edusity',
-      description: 'Welcome to Edusity, your premier destination for online learning.',
-      image: [p2img1, p2img2, p2img3],
+      title: 'project 1',
+      description: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
+      image: [img1, img2, img3],
       liveLink: '/',
-      codeLink: 'https://github.com/SubhanAlom009/A-modern-website',
+      codeLink: '/',
       techStack: [      
         { icon: FaReact, color: '#61DAFB' },
         { icon: SiTailwindcss, color: '#38B2AC' },]
     },
     {
-      title: 'VirtualR',
-      description: 'This is a brief description of Project One.',
-      image: [p3img1, p3img2, p3img3],
+      title: 'project 2',
+      description: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
+      image: [img1, img2, img3],
       liveLink: '/',
-      codeLink: 'https://github.com/SubhanAlom009/VirtualR',
+      codeLink: '/',
       techStack: [      
         { icon: FaReact, color: '#61DAFB' },
         { icon: SiTailwindcss, color: '#38B2AC' },]
     },
     {
-      title: 'Memory Game',
-      description: 'A fun and challenging game designed to test and improve your memory skills. ',
-      image: [p4img1, p4img2, p4img3],
+      title: 'project 3',
+      description: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
+      image: [img1, img2, img3],
       liveLink: '/',
-      codeLink: 'https://github.com/SubhanAlom009/memory-game-js/tree/main',
+      codeLink: '/',
       techStack: [
         { icon: SiTailwindcss, color: '#38B2AC' },
         { icon: IoLogoJavascript, color: '#F7DF1E' }]
     },
     {
-        title: 'Portfolio Website',
-        description: 'I invite you to dive into my portfolio and discover the passion and creativity that drive my craft',
-        image: [p5img1, p5img2, p5img3],
+        title: 'project 4',
+        description: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
+        image: [img1, img2, img3],
         liveLink: '/',
-        codeLink: 'https://github.com/SubhanAlom009/Portfolio_Website_React_frame_motion',
+        codeLink: '/',
         techStack: [      
         { icon: FaReact, color: '#61DAFB' },
         { icon: SiTailwindcss, color: '#38B2AC' },

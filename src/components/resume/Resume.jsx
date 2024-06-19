@@ -1,6 +1,6 @@
 import React from 'react';
-import resume from '../../assets/resume/Resume.pdf';
 import { motion } from 'framer-motion';
+
 function Resume() {
   return (
     <motion.div
@@ -11,7 +11,7 @@ function Resume() {
       className='mt-24'>
       <div className='my-32 sm:mx-32'>
         <h1 className='text-4xl font-semibold'>Resume</h1>
-        <a href={resume} target='_blank' rel='noopener noreferrer'>
+        <a href="#" target='_blank' rel='noopener noreferrer'>
           <p className='text-lg font-bold mt-4 text-[#2A9192]'>
             Full CV and details can be{' '}
             <span className='text-[#3dc5c8] underline underline-offset-4'>
@@ -31,20 +31,20 @@ function Resume() {
             {/* First education */}
             <div className='flex flex-col sm:gap-48 sm:justify-between sm:flex-row'>
               <div className='w-2/3'>
-                <p>2020 - Present</p>
+                <p>2018 - 2022</p>
               </div>
               <div className='w-3/4'>
-                <p className='text-lg font-semibold'>Assam Kaziranga University</p>
+                <p className='text-lg font-semibold'>Sample University</p>
                 <p className='text-sm font-light'>B.Tech in Computer Science</p>
               </div>
             </div>
             {/* Second education */}
             <div className='flex flex-col sm:gap-48 sm:justify-between sm:flex-row'>
               <div className='w-2/3'>
-                <p>2018 - 2020</p>
+                <p>2016 - 2018</p>
               </div>
               <div className='w-3/4'>
-                <p className='text-lg font-semibold'>B Borooah College</p>
+                <p className='text-lg font-semibold'>Sample College</p>
                 <p className='text-sm font-light'>Higher Secondary</p>
               </div>
             </div>
@@ -54,9 +54,9 @@ function Resume() {
                 <p>2023 - 2023</p>
               </div>
               <div className='w-3/4'>
-                <p className='text-lg font-semibold'>Udemy</p>
+                <p className='text-lg font-semibold'>Online Platform</p>
                 <p className='text-sm font-light'>
-                  Mastering Data Structure & Algorithm using C and C++
+                  Data Structure & Algorithm
                 </p>
               </div>
             </div>
@@ -67,8 +67,8 @@ function Resume() {
             {/* First Experience */}
             <div className='flex flex-col justify-between gap-4 sm:gap-48 sm:flex-row'>
               <div className='w-2/3'>
-                <p>June 1, 2024 - June 30, 2024</p>
-                <p>Caudclause</p>
+                <p>June 2023 - August 2023</p>
+                <p>Sample Company</p>
                 <p>Remote</p>
               </div>
               <div className='w-3/4'>
@@ -77,8 +77,8 @@ function Resume() {
                   Responsibilities and Achievements:
                 </p>
                 <ul className='mt-4 list-disc list-inside sm:mt-0'>
-                  <li>Developed 3 full-stack web application<br/> using React, Node.js, and MongoDB.</li>
-                  <li>Assisted in the design and deployment of RESTful APIs.</li>
+                  <li>Developed web applications using React, Node.js, and MongoDB.</li>
+                  <li>Assisted in designing and deploying RESTful APIs.</li>
                 </ul>
               </div>
             </div>
@@ -86,18 +86,18 @@ function Resume() {
             {/* Second Experience */}
             <div className='flex flex-col justify-between gap-4 sm:gap-48 sm:flex-row'>
               <div className='w-2/3'>
-                <p>June 1, 2024 - July 30, 2024</p>
-                <p>Internship Studio</p>
+                <p>September 2023 - December 2023</p>
+                <p>Another Company</p>
                 <p>Remote</p>
               </div>
               <div className='w-3/4'>
-                <p className='text-lg font-semibold'>Website Design and Development Intern</p>
+                <p className='text-lg font-semibold'>Frontend Developer Intern</p>
                 <p className='text-sm font-light'>
                   Responsibilities and Achievements:
                 </p>
                 <ul className='mt-4 list-disc list-inside sm:mt-0'>
-                  <li>Developed responsive web applications <br/> using React.js and Tailwind CSS.</li>
-                  <li>Enhanced website performance by <br/>optimizing code and resources.</li>
+                  <li>Developed responsive web applications using React.js and Tailwind CSS.</li>
+                  <li>Optimized website performance by enhancing code and resources.</li>
                 </ul>
               </div>
             </div>
@@ -105,8 +105,8 @@ function Resume() {
             {/* Third Experience */}
             <div className='flex flex-col justify-between gap-4 sm:gap-48 sm:flex-row'>
               <div className='w-2/3'>
-                <p>July 1, 2024 - August 30, 2024</p>
-                <p>Next24Tech Technology & Services</p>
+                <p>January 2024 - March 2024</p>
+                <p>Another Company</p>
                 <p>Remote</p>
               </div>
               <div className='w-3/4'>
@@ -115,37 +115,33 @@ function Resume() {
                   Responsibilities and Achievements:
                 </p>
                 <ul className='mt-4 list-disc list-inside sm:mt-0'>
-                  <li>Developed responsive web applications using <br/> React.js,node.js and Tailwind CSS.</li>
-                  <li>Built and maintained RESTful APIs using Node.js and Express.js.</li>
+                  <li>Developed responsive web applications using React.js, Node.js, and Tailwind CSS.</li>
+                  <li>Constructed and maintained RESTful APIs with Node.js and Express.js.</li>
                 </ul>
               </div>
             </div>
           </div>
           {/* Skills and certificates */}
           <div className='flex flex-col space-y-8'>
-            <h1 className='text-4xl font-semibold'>certificates and Skills</h1>
+            <h1 className='text-4xl font-semibold'>Skills and Certificates</h1>
             {/* Certificate List */}
             <div className='flex flex-col justify-between gap-8 sm:gap-48 sm:flex-row'>
               <div className='w-2/3'>
               <p className='text-lg font-semibold'>Certificates</p>
                 <ul className='list-disc list-inside'>
-                  <li>AWS Academy ML badge</li>
-                  <li>Master Data Structure and algorithm in c and c++ certificate</li>
-                  <li>Unstop competition participation</li>
+                  <li>Certificate 1</li>
+                  <li>Certificate 2</li>
+                  <li>Certificate 3</li>
                 </ul>
               </div>
               {/* Skills List */}
               <div className='w-3/4'>
                 <p className='text-lg font-semibold'>Skills</p>
                 <ul className='list-disc list-inside'>
-                  <li>HTML</li>
-                  <li>CSS</li>
-                  <li>Javascript</li>
-                  <li>Reactjs</li>
-                  <li>Tailwind CSS</li>
-                  <li>Nodejs</li>
-                  <li>Expressjs</li>
-                  <li>MongoDB</li>
+                  <li>Skill 1</li>
+                  <li>Skill 2</li>
+                  <li>Skill 3</li>
+                  <li>Skill 4</li>
                 </ul>
               </div>
             </div>

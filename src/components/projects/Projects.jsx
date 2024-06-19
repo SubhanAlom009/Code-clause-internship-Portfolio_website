@@ -15,7 +15,7 @@ function Projects() {
     className='mt-24 sm:mx-32'>
       <div className='flex flex-col justify-between my-32'>
         <h1 className='text-4xl font-semibold'>Projects</h1>
-        <a href="https://github.com/SubhanAlom009" target='_blank' ><p className='text-lg font-bold mt-4 text-[#2A9192]'>Go to <span className='underline underline-offset-4 text-[#3dc5c8]'>Github</span></p></a>
+        <a href="#" target='_blank' ><p className='text-lg font-bold mt-4 text-[#2A9192]'>Go to <span className='underline underline-offset-4 text-[#3dc5c8]'>Github</span></p></a>
       </div>
       <div className='w-full border-t-[1px] border-slate-400'></div>
       <div>

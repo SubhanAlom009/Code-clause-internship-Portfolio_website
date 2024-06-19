@@ -1,16 +1,11 @@
-import React, { useEffect, useState } from 'react'
-import { Link,NavLink, useNavigate } from 'react-router-dom'
+import React, { useState } from 'react'
 import pp from '../../assets/profilePicture/pp.png'
-import { delay, motion } from "framer-motion"
+import { motion } from "framer-motion"
 import { FaReact } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
 import { IoLogoNodejs } from "react-icons/io5";
-import { PiFramerLogoFill } from "react-icons/pi";
-import { IoLogoJavascript } from "react-icons/io";
 import { SiExpress } from "react-icons/si";
 import { SiMongodb } from "react-icons/si";
-import SmoothScroll from '../../SmoothScroll/SmoothScroll';
-import { MdKeyboardArrowDown } from "react-icons/md";
 import { hoverMsg } from '../../constants/constants';
 
 
@@ -76,13 +71,13 @@ function Home() {
         </div>
         <div className='w-full space-y-4'>
             <div>
-              <h1 className='text-4xl font-semibold'>Subhan Alom</h1>
-              <p className='text-lg font-medium'>Full Stack Developer</p>
+              <h1 className='text-4xl font-semibold'>Your Name</h1>
+              <p className='text-lg font-medium'>Data science engineer</p>
               <p className='font-light text-md'>Student</p>
             </div>
             <div>
               <p className='text-lg font-semibold'>A bit about me:</p>
-              <p className='font-medium'>I'm currently pursuing BTech in Computer Science and Engineering, specializing in full-stack development with expertise in React, Node.js, and Tailwind CSS. Beyond coding, I excel in my academics and have a passion for continuous learning.</p>
+              <p className='font-medium'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia ad nobis adipisci delectus reiciendis, unde laborum quis facilis quam eius distinctio architecto, corrupti, esse magni autem magnam illo placeat repellat.</p>
             </div>
         </div>
       </motion.div>
