@@ -32,16 +32,6 @@ export const projects = [
         { icon: IoLogoNodejs, color: '#3C873A' }]
     },
     {
-      title: 'project 1',
-      description: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
-      image: [img1, img2, img3],
-      liveLink: '/',
-      codeLink: '/',
-      techStack: [      
-        { icon: FaReact, color: '#61DAFB' },
-        { icon: SiTailwindcss, color: '#38B2AC' },]
-    },
-    {
       title: 'project 2',
       description: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
       image: [img1, img2, img3],
@@ -57,12 +47,22 @@ export const projects = [
       image: [img1, img2, img3],
       liveLink: '/',
       codeLink: '/',
+      techStack: [      
+        { icon: FaReact, color: '#61DAFB' },
+        { icon: SiTailwindcss, color: '#38B2AC' },]
+    },
+    {
+      title: 'project 4',
+      description: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
+      image: [img1, img2, img3],
+      liveLink: '/',
+      codeLink: '/',
       techStack: [
         { icon: SiTailwindcss, color: '#38B2AC' },
         { icon: IoLogoJavascript, color: '#F7DF1E' }]
     },
     {
-        title: 'project 4',
+        title: 'project 5',
         description: 'lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
         image: [img1, img2, img3],
         liveLink: '/',
