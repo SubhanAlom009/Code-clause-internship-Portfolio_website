@@ -3,10 +3,12 @@ import Header from "./components/header/Header.jsx";
 import Footer from "./components/footer/Footer.jsx";
 import AnimatedCursor from 'react-animated-cursor';
 import { useEffect, useState } from "react";
+import LocomotiveScroll from 'locomotive-scroll';
 
 function App() {
   const [isPc, setIsPc] = useState(false);
 
+  const locomotiveScroll = new LocomotiveScroll();
   useEffect(() => {
     const checkDevice = () => {
       setIsPc(window.innerWidth > 1024);
