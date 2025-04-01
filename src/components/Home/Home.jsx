@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import pp from '../../assets/profilePicture/pp.png'
+import pp from '../../assets/profilePicture/ppupdated.jpg'
 import { motion } from "framer-motion"
 import { FaReact } from "react-icons/fa";
 import { SiTailwindcss } from "react-icons/si";
